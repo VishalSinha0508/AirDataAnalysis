@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.6 (Oracle Corporation Java 1.8.0_202)
+[debug] Load.defaultLoad until apply took 1044.6197ms
+[debug]           Load.loadUnit: plugins took 969.6065ms
+[debug]           Load.loadUnit: defsScala took 0.5877ms
+[debug] [Loading] Scanning directory C:\Users\HP\IdeaProjects\scalaPractice\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\HP\IdeaProjects\scalaPractice\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 112.7988 ms
+[debug]               Load.resolveProject(scalapractice-build) took 373.6846ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id scalapractice-build, base: C:\Users\HP\IdeaProjects\scalaPractice\project, plugins: List(<none>))) took 753.9167ms
+[debug] [Loading] Done in C:\Users\HP\IdeaProjects\scalaPractice\project, returning: (scalapractice-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 865.0963ms
+[debug]           Load.loadUnit: cleanEvalClasses took 4.098ms
+[debug]         Load.loadUnit(file:/C:/Users/HP/IdeaProjects/scalaPractice/project/, ...) took 1855.5167ms
+[debug]       Load.apply: load took 2670.4661ms
+[debug]       Load.apply: resolveProjects took 26.1169ms
+[debug]       Load.apply: finalTransforms took 462.6289ms
+[debug]       Load.apply: config.delegates took 65.519ms
+[debug]       Load.apply: Def.make(settings)... took 3028.2361ms
+[debug]       Load.apply: structureIndex took 660.4968ms
+[debug]       Load.apply: mkStreams took 6.0277ms
+[info] loading project definition from C:\Users\HP\IdeaProjects\scalaPractice\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 18439.9351ms
+[debug]     Load.loadUnit: defsScala took 0.0119ms
+[debug] [Loading] Scanning directory C:\Users\HP\IdeaProjects\scalaPractice
+[debug]       Load.loadUnit: mkEval took 27.5978ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 8.6142 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 9.6732ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\HP\IdeaProjects\scalaPractice, plugins: List(<none>))) took 24.5106ms
+[debug] [Loading] Done in C:\Users\HP\IdeaProjects\scalaPractice, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 17106.4257ms
+[debug]     Load.loadUnit: cleanEvalClasses took 33.5674ms
+[debug]   Load.loadUnit(file:/C:/Users/HP/IdeaProjects/scalaPractice/, ...) took 35587.1112ms
+[debug] Load.apply: load took 35641.268ms
+[debug] Load.apply: resolveProjects took 1.5423ms
+[debug] Load.apply: finalTransforms took 128.6327ms
+[debug] Load.apply: config.delegates took 0.6022ms
+[debug] Load.apply: Def.make(settings)... took 800.0608ms
+[debug] Load.apply: structureIndex took 177.1987ms
+[debug] Load.apply: mkStreams took 0.0036ms
+[info] set current project to scalaPractice (in build file:/C:/Users/HP/IdeaProjects/scalaPractice/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-7284fce34091a790a8af
+[debug] Writing bsp connection file
+[info] started sbt server
